@@ -47,3 +47,18 @@ console.log(preciseAge);
 var roughAge = Math.round(preciseAge);
 
 console.log(roughAge); */
+
+//age in days
+
+function getAgeInDays(age) {
+  return age * 365;
+}
+
+function createGreeting(name, age) {
+  var ageInDays = getAgeInDays(age);
+  var message =
+    "My name is " + name + " and I was born over " + ageInDays + " days ago!";
+  return message;
+}
+
+console.log(createGreeting("Umit", 32));
