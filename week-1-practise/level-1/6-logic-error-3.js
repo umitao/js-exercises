@@ -1,7 +1,8 @@
 // The syntax for this function is valid but it has an error, find it and fix it.
 
+//Quotes unnecessary.
 function trim(word) {
-  return "word".trim();
+  return word.trim();
 }
 
 var result = trim("CodeYourFuture  ");

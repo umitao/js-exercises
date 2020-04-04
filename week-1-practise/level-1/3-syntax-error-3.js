@@ -1,7 +1,8 @@
 // There is a syntax error with this code. Fix it.
 
-function(a, b, c) {
-    return a + b + c;
+// addNumbers Function name was not declared.
+function addNumbers(a, b, c) {
+  return a + b + c;
 }
 
 var result = addNumbers(1, 3, 4);
