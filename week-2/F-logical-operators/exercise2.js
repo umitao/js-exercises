@@ -5,7 +5,21 @@
   Update the code so that you get the expected result.
 */
 
-function isNegative() {}
+function isNegative(value) {
+  return value < 0;
+}
+
+function isBetween5and10(x) {
+  return 5 <= x && x <= 10;
+}
+
+function isShortName(name) {
+  return name.length < 8;
+}
+
+function startsWithD(begins) {
+  return begins.charAt(0) === "D";
+}
 
 /* 
   DO NOT EDIT BELOW THIS LINE
