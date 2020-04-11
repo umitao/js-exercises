@@ -5,7 +5,10 @@
 // - insert the replacement value at the provided index
 
 function replace(arr, index, value) {
-  return; // complete this statement
+  var item = arr.slice();
+  item[index] = value;
+  return item;
+  // complete this statement
 }
 
 /* 

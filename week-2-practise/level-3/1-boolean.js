@@ -3,6 +3,7 @@
 // What was wrong with the original code?
 // Leave comments above your changes to explain
 
+//The algorithm looks fine. Reverse constructed, but works fine.
 var isHappy = "false";
 
 if (isHappy == true) {
